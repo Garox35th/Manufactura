@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #7597a0;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+}
+
+header .hero {
+    background-image: url(descargar1.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+header .hero h1 {
+    font-size: 3em;
+    margin: 0 0 10px;
+}
+
+header .hero p {
+    font-size: 1.5em;
+    margin: 0 0 20px;
+}
+
+header .hero .cta-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #f3f0f0;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+ul {
+    color: #666;
+}
+
+.feature {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.features .feature {
+    flex: 0 0 48%;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: down;
+    bottom: 0;
+    width: 100%;
+}
